@@ -4,7 +4,6 @@ import { User } from "../interfaces/user.interface";
 const UserSchema = new Schema<User>(
   {
     name: {
-      required: true,
       type: String,
     },
     password: {
